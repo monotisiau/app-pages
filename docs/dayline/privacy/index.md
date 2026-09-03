@@ -1,104 +1,104 @@
 ---
-title: Dayline 개인정보처리방침
-lang: ko
+title: Dayline Privacy Policy
+lang: en
 ---
 
-[English](en/)
+[한국어](ko/)
 
-# Dayline 개인정보처리방침
+# Dayline Privacy Policy
 
-**시행일:** 2026년 9월 3일  
-**앱 버전:** 1.0.0  
-**패키지명:** com.dayline.android
+**Effective date:** September 3, 2026  
+**App version:** 1.0.0  
+**Package name:** com.dayline.android
 
-Dayline(이하 "앱")은 사용자의 할 일과 일정을 하루의 흐름 안에서 보여 주는 생산성 앱입니다. 본 방침은 Android 버전 1.0.0 기준으로, 앱이 어떤 정보를 다루는지 설명합니다.
+Dayline (the "App") is a productivity app that helps you view tasks and events in the flow of your day. This policy describes what information the App handles for Android version 1.0.0.
 
-## 1. 요약
+## 1. Summary
 
-- 앱은 **개발자 서버로 사용자 데이터를 보내지 않습니다.** 계정 로그인, 광고, 분석(Analytics) SDK를 사용하지 않습니다.
-- 할 일(Todo) 데이터는 **기기 안의 SQLite 데이터베이스**에 저장됩니다.
-- 기기 캘린더 일정은 **읽기 전용**으로 화면에 표시할 때만 읽으며, 앱이 일정을 서버로 보내거나 별도로 저장하지 않습니다.
-- 리마인더 알림은 **기기에서만** 예약·표시됩니다.
-- Android 자동 백업이 켜져 있으면 할 일 데이터 등 앱 데이터가 **Google 계정 백업**에 포함될 수 있습니다.
+- The App **does not send user data to developer-operated servers.** It does not use account sign-in, advertising, or analytics SDKs.
+- Todo data is stored in a **SQLite database on your device.**
+- Device calendar events are read **read-only** when displayed; the App does not send them to servers or persist a separate copy.
+- Reminder notifications are **scheduled and shown on your device only.**
+- If Android automatic backup is enabled, app data (including todos) **may be included in Google account backup.**
 
-## 2. 개발자 정보 및 문의
+## 2. Developer contact
 
-- **앱 이름:** Dayline
-- **문의:** [monoti.dev@gmail.com](mailto:monoti.dev@gmail.com)
+- **App name:** Dayline
+- **Contact:** [monoti.dev@gmail.com](mailto:monoti.dev@gmail.com)
 
-개인정보 관련 문의는 위 이메일로 보내 주세요.
+For privacy-related questions, email us at the address above.
 
-## 3. 수집·처리하는 정보
+## 3. Information we process
 
-앱은 사용자가 직접 입력하거나, 기기에 이미 있는 정보를 읽어 표시합니다. 아래 정보는 **개발자가 운영하는 서버로 전송되지 않습니다.**
+The App uses information you enter or information already on your device. **None of the following is transmitted to developer-operated servers.**
 
-### 3.1 할 일(Todo) 데이터
+### 3.1 Todo data
 
-사용자가 앱에 입력한 할 일 정보(예: 제목, 날짜·시간, 완료 여부, 리마인더 설정)는 기기 내부 SQLite 데이터베이스에 저장됩니다.
+Todo information you enter in the App (for example title, date and time, completion status, reminder settings) is stored in a local SQLite database on your device.
 
-### 3.2 캘린더 일정(읽기 전용)
+### 3.2 Calendar events (read-only)
 
-사용자가 "캘린더 표시" 기능을 켜고 기기 캘린더 접근을 허용한 경우, 앱은 기기에 저장된 캘린더 일정을 **읽기 전용**으로 가져와 타임라인에 표시합니다.
+If you turn on calendar display and grant calendar access, the App reads calendar events stored on your device in **read-only** mode and shows them on the timeline.
 
-- 일정은 화면을 볼 때마다 기기에서 읽습니다.
-- 앱은 캘린더 일정의 **복사본을 로컬에 저장하지 않습니다.**
-- 앱은 캘린더 일정을 **생성·수정·삭제하지 않습니다.**
-- 읽은 일정을 개발자 서버나 제3자에게 **전송하지 않습니다.**
+- Events are read from the device each time they are displayed.
+- The App **does not persist a local copy** of calendar events.
+- The App **does not create, edit, or delete** calendar events.
+- Read events are **not sent** to the developer or third parties.
 
-캘린더 접근 권한은 앱 시작 시가 아니라, 사용자가 캘린더 표시 설정을 열 때 요청합니다. 권한을 주지 않아도 할 일 기능은 사용할 수 있습니다.
+Calendar access is requested when you open calendar display settings, not at app launch. You can use todo features without granting calendar access.
 
-### 3.3 앱 설정
+### 3.3 App settings
 
-표시할 캘린더 선택(숨긴 캘린더 목록 등)과 같은 앱 설정은 기기에 저장됩니다.
+Settings such as which calendars to show (hidden calendar list) are stored on your device.
 
-## 4. 정보 이용 목적
+## 4. How we use information
 
-| 정보 | 이용 목적 |
-|------|-----------|
-| 할 일 데이터 | 할 일 목록 표시, 완료 처리, 리마인더 예약 |
-| 캘린더 일정 | 타임라인·캘린더 UI에 일정 표시(읽기 전용) |
-| 앱 설정 | 사용자가 선택한 표시 옵션 유지 |
+| Information | Purpose |
+|-------------|---------|
+| Todo data | Show todos, mark completion, schedule reminders |
+| Calendar events | Display events on timeline and calendar UI (read-only) |
+| App settings | Remember your display preferences |
 
-위 목적 외로 개발자가 사용자 데이터를 이용하지 않습니다.
+We do not use your data for purposes beyond those listed above.
 
-## 5. Android 권한
+## 5. Android permissions
 
-앱이 요청하는 권한과 용도는 다음과 같습니다.
+The App requests the following permissions:
 
-| 권한 | 용도 |
-|------|------|
-| `POST_NOTIFICATIONS` | 할 일 리마인더 알림 표시(Android 13 이상) |
-| `SCHEDULE_EXACT_ALARM` | 사용자가 설정한 시각에 리마인더를 정확히 울리기 위함 |
-| `READ_CALENDAR` | 기기 캘린더 일정을 읽어 표시(읽기 전용) |
-| `RECEIVE_BOOT_COMPLETED` | 기기 재부팅 후 예약된 리마인더 복원 |
+| Permission | Purpose |
+|------------|---------|
+| `POST_NOTIFICATIONS` | Show todo reminder notifications (Android 13+) |
+| `SCHEDULE_EXACT_ALARM` | Fire reminders at the exact time you set |
+| `READ_CALENDAR` | Read device calendar events for display (read-only) |
+| `RECEIVE_BOOT_COMPLETED` | Restore scheduled reminders after device reboot |
 
-권한을 거부하면 해당 기능(알림, 캘린더 표시 등)이 제한될 수 있으나, 거부하지 않은 기능은 계속 사용할 수 있습니다.
+If you deny a permission, related features (notifications, calendar display, etc.) may be limited; other features continue to work.
 
-## 6. 제3자 제공 및 국외 이전
+## 6. Third parties and international transfer
 
-앱 1.0.0은 사용자 데이터를 개발자 서버, 광고 네트워크, 분석 서비스 등 **제3자에게 제공하지 않습니다.**
+App 1.0.0 **does not provide** user data to third parties such as developer servers, ad networks, or analytics services.
 
-다만 사용자 기기에서 Android 자동 백업(Google 계정 백업)이 활성화되어 있으면, Google의 백업 서비스 정책에 따라 앱 데이터가 Google 인프라에 저장될 수 있습니다. 이는 Google과 사용자 간의 관계이며, Dayline 개발자가 직접 해당 데이터에 접근하지 않습니다.
+If Android automatic backup (Google account backup) is enabled on your device, app data may be stored on Google infrastructure under Google's backup terms. That relationship is between you and Google; the Dayline developer does not directly access that backup.
 
-## 7. 보관 및 삭제
+## 7. Retention and deletion
 
-- **할 일·설정 데이터:** 앱을 기기에서 삭제(제거)하면 해당 기기의 앱 데이터는 함께 삭제됩니다. Google 계정 백업에 포함된 사본은 Google 백업 설정 및 정책에 따릅니다.
-- **캘린더 일정:** 앱이 일정 복사본을 저장하지 않으므로, 표시를 중단하거나 앱을 삭제하면 앱 안에서는 더 이상 일정을 다루지 않습니다. 원본 일정은 기기 캘린더 앱에 그대로 남습니다.
+- **Todos and settings:** Uninstalling the App removes its data from that device. Copies in Google account backup follow Google's backup settings and policies.
+- **Calendar events:** Because the App does not store event copies, stopping display or uninstalling the App means the App no longer handles events. Original events remain in your device calendar app.
 
-## 8. 아동
+## 8. Children
 
-앱은 만 13세 미만 아동을 대상으로 하지 않으며, 아동으로부터 개인정보를 고의로 수집하지 않습니다.
+The App is not directed at children under 13, and we do not knowingly collect personal information from children.
 
-## 9. 보안
+## 9. Security
 
-할 일 데이터는 기기 내부에 저장되며, 앱은 네트워크를 통해 해당 데이터를 전송하는 기능을 포함하지 않습니다. 기기 잠금, OS 보안 업데이트 등은 사용자의 기기 설정에 따릅니다.
+Todo data stays on your device; the App does not include functionality to transmit that data over the network. Device lock and OS security updates depend on your device settings.
 
-## 10. 방침 변경
+## 10. Changes to this policy
 
-기능 추가나 법령 변경 등으로 본 방침을 수정할 수 있습니다. 중요한 변경이 있으면 앱 업데이트 또는 본 문서(공개 URL)를 통해 안내합니다. 상단 **시행일**을 갱신합니다.
+We may update this policy when features change or when required by law. Material changes will be communicated through app updates or this document (public URL). The **effective date** at the top will be updated.
 
-## 11. 사용자 권리
+## 11. Your rights
 
-앱은 개발자 서버에 개인정보를 보관하지 않으므로, 서버 측 열람·정정·삭제 요청 대상 데이터는 없습니다. 기기에 저장된 할 일은 앱 내에서 수정·삭제할 수 있으며, 앱 삭제로 기기 내 데이터를 제거할 수 있습니다. Google 백업 사본은 [Google 계정](https://myaccount.google.com/) 설정에서 관리할 수 있습니다.
+Because the App does not store personal information on developer servers, there is no server-side data to access, correct, or delete. You can edit or delete todos in the App and remove on-device data by uninstalling. Google backup copies can be managed in your [Google Account](https://myaccount.google.com/) settings.
 
-문의: [monoti.dev@gmail.com](mailto:monoti.dev@gmail.com)
+Contact: [monoti.dev@gmail.com](mailto:monoti.dev@gmail.com)
