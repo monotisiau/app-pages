@@ -9,7 +9,7 @@ lang: en
 
 **Effective date:** September 3, 2026  
 **App version:** 1.0.0  
-**Package name:** com.dayline.android
+**Package name:** studio.dayline.app
 
 Dayline (the "App") is a productivity app that helps you view tasks and events in the flow of your day. This policy describes what information the App handles for Android version 1.0.0.
 
