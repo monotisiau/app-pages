@@ -1,17 +1,17 @@
 ---
-title: Dayline Privacy Policy
+title: Stipple Privacy Policy
 lang: en
 ---
 
 [한국어](ko/)
 
-# Dayline Privacy Policy
+# Stipple Privacy Policy
 
-**Effective date:** September 3, 2026  
+**Effective date:** September 8, 2026  
 **App version:** 1.0.0  
 **Package name:** studio.dayline.app
 
-Dayline (the "App") is a productivity app that helps you view tasks and events in the flow of your day. This policy describes what information the App handles for Android version 1.0.0.
+Stipple (the "App") is a productivity app that helps you view tasks and events in the flow of your day. This policy describes what information the App handles for Android version 1.0.0.
 
 ## 1. Summary
 
@@ -19,11 +19,11 @@ Dayline (the "App") is a productivity app that helps you view tasks and events i
 - Todo data is stored in a **SQLite database on your device.**
 - Device calendar events are read **read-only** when displayed; the App does not send them to servers or persist a separate copy.
 - Reminder notifications are **scheduled and shown on your device only.**
-- If Android automatic backup is enabled, app data (including todos) **may be included in Google account backup.**
+- Automatic backup is disabled, so app data **never leaves your device, including via Google account backup.**
 
 ## 2. Developer contact
 
-- **App name:** Dayline
+- **App name:** Stipple
 - **Contact:** [monoti.dev@gmail.com](mailto:monoti.dev@gmail.com)
 
 For privacy-related questions, email us at the address above.
@@ -78,11 +78,11 @@ If you deny a permission, related features (notifications, calendar display, etc
 
 App 1.0.0 **does not provide** user data to third parties such as developer servers, ad networks, or analytics services.
 
-If Android automatic backup (Google account backup) is enabled on your device, app data may be stored on Google infrastructure under Google's backup terms. That relationship is between you and Google; the Dayline developer does not directly access that backup.
+Automatic backup is disabled, so app data is not stored on Google infrastructure via Google account backup.
 
 ## 7. Retention and deletion
 
-- **Todos and settings:** Uninstalling the App removes its data from that device. Copies in Google account backup follow Google's backup settings and policies.
+- **Todos and settings:** Uninstalling the App removes its data from that device. Automatic backup is disabled, so no separate copy exists.
 - **Calendar events:** Because the App does not store event copies, stopping display or uninstalling the App means the App no longer handles events. Original events remain in your device calendar app.
 
 ## 8. Children
@@ -99,6 +99,6 @@ We may update this policy when features change or when required by law. Material
 
 ## 11. Your rights
 
-Because the App does not store personal information on developer servers, there is no server-side data to access, correct, or delete. You can edit or delete todos in the App and remove on-device data by uninstalling. Google backup copies can be managed in your [Google Account](https://myaccount.google.com/) settings.
+Because the App does not store personal information on developer servers, there is no server-side data to access, correct, or delete. You can edit or delete todos in the App and remove on-device data by uninstalling.
 
 Contact: [monoti.dev@gmail.com](mailto:monoti.dev@gmail.com)
