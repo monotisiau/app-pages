@@ -9,7 +9,7 @@ lang: en
 
 **Effective date:** September 8, 2026  
 **App version:** 1.0.0  
-**Package name:** studio.dayline.app
+**Package name:** studio.godok.stipple
 
 Stipple (the "App") is a productivity app that helps you view tasks and events in the flow of your day. This policy describes what information the App handles for Android version 1.0.0.
 
